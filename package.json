@@ -1,14 +1,14 @@
 {
-    "name": "Express Telegram Bot",
+    "name": "telegram-express-bot",
     "version": "0.0.1",
     "description": "Spin a Telegram bot in seconds using Telegraf + Express",
     "main": "index.js",
     "scripts": {
         "prod": "node ./start.js",
         "watch": "nodemon ./start.js --ignore public/",
-        "start": "npm run watch",
+        "start": "npm run watch"
     },
-    "author": "Martín M.",
+    "author": "Martin M.",
     "license": "MIT",
     "homepage": "https://github.com/skydiver/",
     "dependencies": {
